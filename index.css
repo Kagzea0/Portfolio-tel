@@ -1,0 +1,128 @@
+body {
+    height: 728px;
+    background: linear-gradient(#383077, #0c102c);
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 728px;    /* 100% Full-height */
+    width: 0;    /* 0 width - change this with JavaScript */
+    position: absolute;    /* Stay in place */
+    z-index: 1;    /* Stay on top */
+    top: 0;
+    left: 0;
+    overflow-x: hidden;    /* Disable horizontal scroll */
+    padding-top: 60px;    /* Place content 60px from the top */
+    transition: 0.5s;    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 20px;
+    text-decoration: none;
+    opacity: 0.92;
+    font-size: 25px;
+    color: #000;
+    display: block;
+    transition: 0.2s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover,
+.offcanvas a:focus {
+    color: #fff;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    right: 120px;
+    font-size: 50px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    overflow: hidden;
+    width: 290px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background: none;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background: none;
+    color: white;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 10px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+a svg {
+    transition: all .5s ease;
+
+}
+
+#ico {
+    display: none;
+}
+
+.menu {
+    background: none;
+    display: none;
+    padding: 5px;
+    width: 320px;
+}
+
+a {
+    display: block;
+    color: #fff;
+    padding: 10px 2px;
+    margin: 3px 0;
+    text-decoration: none;
+    background: none;
+}
+
+a:nth-child(1) {
+    margin-top: 0;
+}
+
+a:nth-child(5) {
+    margin-bottom: 0;
+}
+
+a:hover {
+    background: none;
+}
+
+#test1{
+    position: absolute;
+    bottom: 250px;
+}

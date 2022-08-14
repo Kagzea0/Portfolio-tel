@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Accueil</title>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div id="sideNavigation" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#About">About</a>
+            <a href="#Projects">Projects</a>
+            <a href="#Skills">Skills</a>
+            <a href="#Experience">Experience</a>
+            <a href="#Contact">Contact</a>
+        </div>       
+        <nav class="topnav">  
+            <a href="#" onclick="openNav()">
+                <svg width="30" height="30" id="icoOpen">
+                    <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                    <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                    <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+                </svg>
+            </a>
+        </nav>
+        <div class="About" id="About"></div>
+        <div class="Projects" id="Projects"></div>
+        <div class="Skills" id="Skills"></div>
+        <div class="Experience" id="Experience"></div>
+        <div class="Contact" id="Contact"></div>
+    </body>
+</html>
