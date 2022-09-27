@@ -5,7 +5,7 @@ body {
 
 /* The side navigation menu */
 .sidenav {
-    height: 728px;    /* 100% Full-height */
+    height: 100%;    /* 100% Full-height */
     width: 0;    /* 0 width - change this with JavaScript */
     position: absolute;    /* Stay in place */
     z-index: 1;    /* Stay on top */
@@ -28,8 +28,7 @@ body {
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover,
-.offcanvas a:focus {
+.sidenav a:hover, .offcanvas a:focus {
     color: #fff;
 }
 
@@ -120,9 +119,4 @@ a:nth-child(5) {
 
 a:hover {
     background: none;
-}
-
-#test1{
-    position: absolute;
-    bottom: 250px;
 }
